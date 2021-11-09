@@ -10,7 +10,6 @@ export const Crud = () => {
 
     const [users, setUsers] = useState([])
     const [showCreateNewUser, setShowCreateNewUser] = useState(false)
-    const [showEdit, setShowEdit] = useState([])
 
     const getUsers = async () => {
         const reponse = await fetch(`${process.env.REACT_APP_URL_API}/users`)
@@ -31,6 +30,7 @@ export const Crud = () => {
     }
 
     useEffect(() => {
+        document.title = "Users CRUD"
         getUsers()
     }, [])
 

@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react"
 import { useNavigate, useParams } from "react-router-dom"
-import { FaArrowLeft } from "react-icons/fa"
 
 export const EditUser = () => {
 
