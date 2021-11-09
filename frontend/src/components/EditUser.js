@@ -65,7 +65,7 @@ export const EditUser = () => {
                 <label>Email</label>
                 <input
                     type="text"
-                    placeholder="Emial Ex. jsmith@gmail.com"
+                    placeholder="Email Ex. jsmith@gmail.com"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                 />
