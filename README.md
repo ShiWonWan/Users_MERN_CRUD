@@ -19,8 +19,10 @@ Having the possibility to add, delete and update users, having a table where all
 By clicking here you can access to the application
 
 ## Screenshots :sunglasses:
-
+![Main app](https://raw.githubusercontent.com/ShiWonWan/Users_MERN_CRUD/main/screenshots/main.png)
+![New user](https://raw.githubusercontent.com/ShiWonWan/Users_MERN_CRUD/main/screenshots/new%20user.png)
+![Edit a user](https://raw.githubusercontent.com/ShiWonWan/Users_MERN_CRUD/main/screenshots/edit%20user.png)
 ## Links
-- By clicking here you can go to the backend code of the application.
+- [By clicking here you can go to the backend code of the application.](https://github.com/ShiWonWan/Users_MERN_CRUD/tree/main/backend)
 
-- By clicking here you can go to the frontend code of the application.
+- [By clicking here you can go to the frontend code of the application.](https://github.com/ShiWonWan/Users_MERN_CRUD/tree/main/frontend)
