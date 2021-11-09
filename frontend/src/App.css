@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+}
+.newUsr {
+  background-color: rgba(0, 119, 255, 0.986);
+  color: white;
+  border: none;
+  padding: .5rem 1.5rem .5rem 1.5rem;
+  transition: .3s;
+  width: fit-content;
+  margin: 2rem auto 2rem auto;
+  border-radius: 12px;
+}
+
+.newUsr:hover{
+  background-color: rgba(122, 184, 255, 0.986);
+  color: black;
+}
+
+#crud {
+  margin: auto;
+  border-collapse: collapse;
+  width: 50rem;
+  border: 1px rgb(189, 189, 189) solid;
+}
+
+#crud td {
+  padding: 8px;
+  margin: .3rem 1rem .3rem 1rem;
+}
+#crud th {
+  text-align: left;
+  padding: .5rem 0 .5rem 0;
+  text-align: center;
+  border-bottom: 1px rgb(235, 235, 235) solid;
+  border-left: 1px rgb(235, 235, 235) solid;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f0f0;
+}
+#crud tr .actions{
+  display: flex;
+  justify-content: space-around;
+}
+#crud tr .actions .edit{
+  color: rgba(18, 124, 245, 0.986);
+  font-size: 1.5rem;
+  padding-right: .5rem;
+  transition: .2s;
+}
+#crud tr .actions .edit:hover{
+  color: rgba(95, 170, 255, 0.986);
+}
+#crud tr .actions .delete{
+  color: red;
+  font-size: 1.5rem;
+  transition: .2s;
+}
+#crud tr .actions .delete:hover{
+  color: rgb(253, 119, 119);
+}
+
+#newUser{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  text-align: start;
+  background-color: white;
+  box-shadow: 0px 0px 19px -1px rgba(0,0,0,0.8);
+  padding: 4rem;
+  left: 0; 
+  right: 0; 
+  top: 3rem;
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+#newUser label{
+  font-size: 1.5rem;
+  margin:.5rem 0rem .5rem 0rem;
+}
+
+#newUser input{
+  height: 2rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px rgb(138, 138, 138) solid;
+}
+
+#newUser input[type="submit"]{
+  height: 2.5rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 119, 255, 0.986);
+  border: none;
+  color: white;
+  border-radius: 15px;
+  transition: .3s;
+  font-size: 1rem;
+}
+
+#newUser input[type="submit"]:hover{
+  background-color: rgba(122, 184, 255, 0.986);
+  color: black;
+}
+
+
+#editUser{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  text-align: start;
+  background-color: white;
+  padding: 4rem;
+  left: 0; 
+  right: 0; 
+  top: 3rem;
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+#editUser label{
+  font-size: 1.5rem;
+  margin:.5rem 0rem .5rem 0rem;
+}
+
+#editUser input{
+  height: 2rem;
+  border: none;
+  outline: none;
+  border-bottom: 1px rgb(138, 138, 138) solid;
+}
+
+#editUser input[type="submit"]{
+  height: 2.5rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 119, 255, 0.986);
+  border: none;
+  color: white;
+  border-radius: 15px;
+  transition: .3s;
+  font-size: 1rem;
+}
+#editUser .back{
+  height: 2.5rem;
+  margin-top: 1rem;
+  background-color: rgba(83, 83, 83, 0.986);
+  border: none;
+  color: white;
+  border-radius: 15px;
+  transition: .3s;
+  font-size: 1rem;
+}
+
+#editUser .back:hover{
+  background-color: rgba(133, 133, 133, 0.986);
+}
+
+
+#editUser input[type="submit"]:hover{
+  background-color: rgba(122, 184, 255, 0.986);
+  color: black;
+}
